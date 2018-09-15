@@ -6,6 +6,7 @@ import { NoticiaComponent } from './noticia/noticia.component';
 import { AdcNoticiaComponent } from './adc-noticia/adc-noticia.component';
 import { PesquisarComponent } from './pesquisar/pesquisar.component';
 import { ListaNoticiasComponent } from './lista-noticias/lista-noticias.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ListaNoticiasComponent } from './lista-noticias/lista-noticias.componen
     ListaNoticiasComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
