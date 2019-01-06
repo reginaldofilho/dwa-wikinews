@@ -7,6 +7,7 @@ import { AdcNoticiaComponent } from './adc-noticia/adc-noticia.component';
 import { PesquisarComponent } from './pesquisar/pesquisar.component';
 import { ListaNoticiasComponent } from './lista-noticias/lista-noticias.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavibarComponent } from './navibar/navibar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NoticiaComponent,
     AdcNoticiaComponent,
     PesquisarComponent,
-    ListaNoticiasComponent
+    ListaNoticiasComponent,
+    NavibarComponent
   ],
   imports: [
     BrowserModule,
